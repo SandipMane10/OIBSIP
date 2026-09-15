@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #dff6ff, #eee5ff);
+}
+
+.cart {
+    width: 400px;
+    padding: 40px 30px;
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 12px 30px rgba(80, 70, 150, 0.15);
+    border-top: 5px solid #7c6cff;
+}
+
+h2 {
+    color: #5146a5;
+    margin-bottom: 25px;
+    font-size: 28px;
+}
+
+label {
+    display: block;
+    color: #475569;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+input {
+    width: 170px;
+    padding: 9px;
+    margin-bottom: 20px;
+    background: #f5f7ff;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #7c6cff;
+    box-shadow: 0 0 8px #b8b0ff;
+}
